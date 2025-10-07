@@ -1,0 +1,31 @@
+I solved the coding interview problem. Please provide a concise summary for my notes with the following sections:
+
+1. Pattern Recognition
+What algorithmic pattern/technique does this use? (e.g., two pointers, sliding window, hash map, DFS, etc.)
+What are the key characteristics that indicate this pattern should be used?
+What similar problems use this same pattern?
+
+2. High-Level Approach
+Describe the strategy in 2-3 sentences without code
+
+3. Step-by-Step Logic
+Break down the solution into clear logical steps (no code, just the thinking process)
+Explain WHY each step works
+
+4. Key Insights & Edge Cases
+What makes this solution work?
+Important implementation details or gotchas
+Edge cases to handle
+
+5. Pseudocode
+High-level pseudocode structure (not actual code, just the logic flow)
+
+6. Complexity Analysis
+Time Complexity: O(?) with brief explanation
+Space Complexity: O(?) with brief explanation
+Format: Use clear headers, bullet points for readability, and keep it concise. Focus on understanding and pattern recognition, not implementation details.
+
+Here's my solution: 
+
+
+

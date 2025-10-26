@@ -15,3 +15,8 @@ A collection of coding interview problems, solutions, and notes to build pattern
 2. Review the solution and notes
 3. Focus on understanding **why** solutions work, not just **how**
 4. Build intuition by recognizing patterns across similar problems
+
+## Slides that explain the problems as well
+
+- Check the notes in the slides for more informaiton
+- https://docs.google.com/presentation/d/19_PN2LiC7r5nWyunUWHg1M7oO8-rKdv67zT7DiLmO_4/edit?usp=sharing

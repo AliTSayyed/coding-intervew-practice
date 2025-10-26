@@ -15,3 +15,6 @@ print(mySet)
 
 # list to set
 print(set([1, 2, 3, 1]))
+
+# clear a set
+mySet.clear()

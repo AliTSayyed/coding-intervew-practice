@@ -28,6 +28,16 @@ Memory: s NOW points to ┌────────┐
 print(ord("a"))  # gives 97
 print(ord("b"))  # gives 98
 
-# COmbine a list of strings (with an empty string delimitor)
+# Combine a list of strings (with an empty string delimitor)
 strings = ["ab", "cd", "ef"]
 print("".join(strings))  # this gives abcdef
+
+
+s = s.strip()  # "hello world" - removes leading/trailing spaces
+s = s.replace(" ", "")  # "helloworld" - removes ALL spaces
+s = s.split()  # ["hello", "world"] - splits on whitespace
+
+s = s.lower()
+s = s.upper()
+
+s = ''.join(sorted(s)) # sorted will sort the chars but turn it into an array, the ''.join will merge it back into a string

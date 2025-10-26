@@ -25,3 +25,10 @@ for val in myMap.values():
 
 for key, val in myMap.items():
     print(key, val)
+
+
+# for key in myMap:                    Iterate keys
+# for value in myMap.values():         Iterate values
+# for key, value in myMap.items():     Iterate key-value pairs
+# for key in sorted(myMap):            Iterate keys in sorted order
+# for key in sorted(myMap.keys()):     Same as above

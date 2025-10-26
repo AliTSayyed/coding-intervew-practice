@@ -10,6 +10,9 @@ print(arr)
 arr.pop()
 print(arr)
 
+# can add many items to a list
+arr.extend([7, 8, 9])
+
 # list is not a stack so you can do inserts
 arr.insert(1, 7)  # O(n) time insert operation
 print(arr)
@@ -77,3 +80,7 @@ for i in range(len(nums1)):
 # With zip (clean):
 for n1, n2 in zip(nums1, nums2):
     print(n1, n2)
+
+# can add lists
+nums3 = [8, 9, 10]
+nums3 += [11, 12, 13]

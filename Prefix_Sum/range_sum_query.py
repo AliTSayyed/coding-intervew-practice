@@ -22,14 +22,10 @@ class NumArray(object):
         """
         :type nums: List[int]
         """
-        # create an instance var of the sum of the nums array up to that index
-        # ie, index 0 has a total sum of 0
-        # index 1 stores the sum of the range 0-1 of nums
-        # and so on
-        self.new_nums = [0 for i in range(len(nums) + 1)]
-
-        for i in range(1, len(nums) + 1):
-            self.new_nums[i] = self.new_nums[i - 1] + nums[i - 1]
+        self.prefixSum = nums[:]
+        # convert to a prefix sum
+        for i in range(1, len(nums)):
+            self.prefixSum[i] += nums[i - 1]
 
     def sumRange(self, left, right):
         """
@@ -37,8 +33,14 @@ class NumArray(object):
         :type right: int
         :rtype: int
         """
-        # the difference of the indecies will remove the sums from 0-left (exclusive)
-        return self.new_nums[right + 1] - self.new_nums[left]
+        # prefixSum[left - 1] = everything you don't want (indices 0 to left-1)
+        # Subtract it from prefixSum[right] to isolate just your range.
+        # prefixSum[right] is the sum of all values from index 0 to right
+
+        if left == 0:
+            return self.prefixSum[right]
+        else:
+            return self.prefixSum[right] - self.prefixSum[left - 1]
 
 
 """
